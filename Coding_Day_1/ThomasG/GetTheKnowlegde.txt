@@ -1,0 +1,23 @@
+	1. Get the knowledge
+
+Was ist eine Variable?
+
+Mit einer Variablen kannst du einem Speicherbereich einen Namen zuweißen.
+
+
+Was sind string & char für Datentypen?
+
+string:
+-eine Variable
+-man kann Texte speichern
+
+char:
+-eine Variable
+-man kann nur ein Zeichen speichern
+
+
+Was ist eine Konsole in C#?
+
+Eine "console" ist ein schwarzes Fenster, dass sich öffnet und in dem Text eingegeben werden kann.
+Desweiteren gibt die "console" das Programm aus.
+ 

@@ -1,0 +1,11 @@
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\bin\Debug\netcoreapp2.1\GetTheExperience.deps.json
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\bin\Debug\netcoreapp2.1\GetTheExperience.runtimeconfig.json
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\bin\Debug\netcoreapp2.1\GetTheExperience.runtimeconfig.dev.json
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\bin\Debug\netcoreapp2.1\GetTheExperience.dll
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\bin\Debug\netcoreapp2.1\GetTheExperience.pdb
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.csprojAssemblyReference.cache
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.csproj.CoreCompileInputs.cache
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.AssemblyInfoInputs.cache
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.AssemblyInfo.cs
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.dll
+C:\Users\ThomasG\source\repos\GetTheExperience\GetTheExperience\obj\Debug\netcoreapp2.1\GetTheExperience.pdb
