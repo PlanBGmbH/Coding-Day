@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingDay_16._10._2019
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //initialisiert das Leerzeichen
+            char leerzeichen = ' ';
+            //Zählt die Anzahl der Leerzeichen im Satz
+            int leerzeichenCounter = 0;
+            Console.WriteLine("Bitte geben sie einen Satz ein");
+            //eingabe für den Satz
+            string eingabeSatz = Convert.ToString(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Ihr Satz lautet wie folgt : " + eingabeSatz);
+
+            for (int i = 0; i < eingabeSatz.Length; i++)
+            {
+                if (eingabeSatz[i] == leerzeichen)
+                {
+                    leerzeichenCounter++;
+                }
+            }
+
+            Console.WriteLine("Ihr Satz hat : " + leerzeichenCounter + " Leerzeichen.");
+            Console.WriteLine("Bitte geben sie jetzt einen Buchstaben ein, um diesen aus deinem Satz vollständig zu entfernen");
+            string buchstabenEingabe = Convert.ToString(Console.ReadLine());
+            Console.Clear();
+            //Wenn mehr als ein Buchstabe eingegeben wird erscheint eine Fehlermeldung und die Eingabe startet erneut.
+            if (buchstabenEingabe.Length >= 2)
+            {
+                do
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Das war falsch. Sie dürfen nur einen Buchstaben eingeben.");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    buchstabenEingabe = Convert.ToString(Console.ReadLine());
+                } while (buchstabenEingabe.Length >= 2);
+            }
+            string eingabe2Satz = eingabeSatz.Replace(buchstabenEingabe, "");
+            Console.WriteLine("Ihr neuer Satz lautet wie folgt: " + eingabe2Satz);
+            Console.WriteLine("Geben Sie nun ein Wort ihrer Wahl ein.");
+            string wortEingabe = Convert.ToString(Console.ReadLine());
+            Console.Clear();
+            int laengeWort = 0;
+            laengeWort = laengeWort + wortEingabe.Length;
+            Console.WriteLine("Ihr wort ist " + laengeWort + " Zeichen lang.");
+            Console.WriteLine("Geben sie nun einen Buchstaben ein, um ihr Wort mit diesem zu verschlüsseln.");
+            string buchstabenEingabeVerschlüsselung = Convert.ToString(Console.ReadLine());
+            string dukek = wortEingabe.Replace(wortEingabe, buchstabenEingabeVerschlüsselung);
+            Console.WriteLine("Ihr wort sieht nun verschlüsselt so aus:");
+
+            for (int i = 0; i < wortEingabe.Length; i++)
+            {
+                Console.Write(dukek);
+            }
+            //Hier habe ich eine Cäsar Verschlüsselung für ein Passwort erstellt.
+            Console.WriteLine("Willkomen bei Caesar Verschlüsselung.Bitte geben sie einen Text zum verschlüsseln ein.");
+            string passwortEingabe = Console.ReadLine();
+            string verschlüsselt = string.Empty;
+            string okokok = string.Empty;
+            int stellenVerschoben = 3;
+            foreach (char BuchstabeInPasswort in passwortEingabe)
+            {
+                char verschiebeBuchstaben = (char)(BuchstabeInPasswort + stellenVerschoben);
+                verschlüsselt += verschiebeBuchstaben.ToString();
+            }
+            Console.WriteLine("Ihr passwort lautet verschlüsselt: " + verschlüsselt);
+            Console.ReadKey();
+        }
+    }
+}
