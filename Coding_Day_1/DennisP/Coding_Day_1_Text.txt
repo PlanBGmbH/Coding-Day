@@ -1,0 +1,18 @@
+Was ist eine Variable ? 
+
+Eine Variable ist ein Wert oder Name für einen Speicherbereich.
+Jede Variable MUSS einen bestimmten Datentyp haben wie zum Beispiel string oder double.
+
+
+Datentypen:
+Char:
+Char ist der Datentyp für 1 Zeichen wie zum Beispiel + oder -.
+
+String:
+String ist der Datentyp für mehrere oder keine Unicode-Zeichen.
+
+
+Was ist die konsole in C#?
+
+Die Konsole in C# gibt das Endergebniss des Codes aus.
+Sie sorgt dafür das man den Code ausführen kann.

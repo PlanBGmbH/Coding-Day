@@ -1,0 +1,11 @@
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.exe
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.deps.json
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.runtimeconfig.json
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.runtimeconfig.dev.json
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.dll
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\bin\Debug\netcoreapp3.0\CodingDay.pdb
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\obj\Debug\netcoreapp3.0\CodingDay.csprojAssemblyReference.cache
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\obj\Debug\netcoreapp3.0\CodingDay.AssemblyInfoInputs.cache
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\obj\Debug\netcoreapp3.0\CodingDay.AssemblyInfo.cs
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\obj\Debug\netcoreapp3.0\CodingDay.dll
+C:\Users\DennisP\source\repos\CodingDay\CodingDay\obj\Debug\netcoreapp3.0\CodingDay.pdb
