@@ -4,7 +4,9 @@ Eine Variable ist eine variable Bennenung eines Datentypes welcher ein vordefini
 <strong>Was sind Strings und Chars für Datentypen?</strong>
 
 Strings:
-- Sind einfache Wörter "Auto" wäre ein String. Strings sind eine aneinanderreihung von Chars also im Grunde ein Array voller Chars
+- Sind einfache Wörter "Auto" wäre ein String. Strings sind eine aneinanderreihung von Chars also im Grunde ein Array voller 
+Chars
+
 Chars:
 - Sind einzelne Chars wie zB. "A" oder "B"
 </ol>
