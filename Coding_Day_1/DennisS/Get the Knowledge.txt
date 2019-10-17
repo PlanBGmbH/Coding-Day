@@ -1,0 +1,16 @@
+Dennis Sapia
+
+Was ist eine Variable?
+
+Eine Variable wird für einen Datentyp deklariert, 
+um dieser dann zum Beispiel einen Wert zuzuweisen (das nennt man initialisieren).
+Variabeln können, wenn sie einen Wert zugewiesen haben, ausgegeben werden.
+
+Was sind string und character für Datentypen?
+
+-String: Ein string wird verwendet, um eine Variable mit Text zu initialisieren. Der Datentyp string hat den Wert Text.
+-Char: ein char kann als Wert nur ein Zeichen (Unicode Zeichen) enthalten. Ein string hingegen kann mehrere Zeichen enthalten.
+
+Was ist eine Konsole in C#? 
+
+Eine Konosle ist eine Anwendung, welche nur durch Textbefehlen(code) gesteuert wird, die kein grafisches GUI (graphical user interface) hat.
